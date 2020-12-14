@@ -48,5 +48,9 @@ if send_email:
 
 
 
+Before you run the code, you need to make your Fusion staking wallet's private key available, so that the programme can send your FSN. To do this get your private key (e.g. using myfusionwallet.com) and then :- 
+
+export FSN_PRIVATE_KEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+  
 You can run the code on your VPS now. A good way to do this is to use the 'screen' utility, or you can run it in the background using &
 
